@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Detect Caps Lock",
+    "description": "Extension that detects Caps Lock",
+    "author": "Paulo Ricardo",
+    "browser_action": {
+        "default_title": "Detect Caps Lock",
+        "default_popup": "index.html",
+        "default_icon": { 
+            "16": "img/mid.png", 
+            "24": "img/up.png", 
+            "32": "img/down.png"
+        }
+    }
+}
