@@ -1,4 +1,4 @@
-document.addEventListener('keyup', function (event) {
+document.addEventListener('keydown', function (event) {
     var flag = event.getModifierState && event.getModifierState('CapsLock');
     var text = document.getElementById("text");
     var icon = document.getElementById("icon");
