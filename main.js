@@ -1,7 +1,7 @@
 document.addEventListener('keydown', function (event) {
-    var flag = event.getModifierState && event.getModifierState('CapsLock');
-    var text = document.getElementById("text");
-    var icon = document.getElementById("icon");
+    let flag = event.getModifierState && event.getModifierState('CapsLock');
+    let text = document.getElementById("text");
+    let icon = document.getElementById("icon");
     document.getElementById("icon").innerHTML = (flag ? (
         chrome.browserAction.setIcon({
             path : "img/up.png"
