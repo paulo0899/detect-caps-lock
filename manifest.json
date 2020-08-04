@@ -3,7 +3,7 @@
     "version": "0.1.1",
     "name": "Detect Caps Lock",
     "description": "Extension that detects Caps Lock",
-    "author": "Paulo Ricardo",
+    "author": "https://github.com/paulo0899",
     "browser_action": {
         "default_title": "Detect Caps Lock",
         "default_popup": "index.html",
