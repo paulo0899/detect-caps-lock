@@ -1,5 +1,5 @@
 document.addEventListener('keydown', function (event) {
-    let flag = event.getModifierState && event.getModifierState('CapsLock')
+    let flag = event.getModifierState('CapsLock')
     document.querySelector('img#icon').innerHTML = (flag ? (
         chrome.browserAction.setIcon({
             path : 'img/up.png'
