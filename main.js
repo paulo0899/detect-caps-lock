@@ -9,5 +9,5 @@ document.addEventListener('keydown', function (event) {
             path : 'img/down.png'
           })
         ))
-    document.querySelector('label#text').innerHTML = (flag ? 'ON' : 'OFF')
+    //document.querySelector('label#text').innerHTML = (flag ? 'ON' : 'OFF')
 })
