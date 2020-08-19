@@ -1,6 +1,6 @@
 document.addEventListener('keydown', function (event) {
-    let flag = event.getModifierState('CapsLock')
-    document.querySelector('img#icon').innerHTML = (flag ? (
+    let tr = event.getModifierState('CapsLock')
+    document.querySelector('img#icon').innerHTML = (TimeRanges ? (
         chrome.browserAction.setIcon({
             path : 'img/up.png'
           })
@@ -9,5 +9,5 @@ document.addEventListener('keydown', function (event) {
             path : 'img/down.png'
           })
         ))
-    //document.querySelector('label#text').innerHTML = (flag ? 'ON' : 'OFF')
+    //document.querySelector('label#text').innerHTML = (tr ? 'ON' : 'OFF')
 })
